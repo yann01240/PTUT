@@ -806,7 +806,7 @@ textarea#comment{
 	top: -20px;
 	color:#FFF;
 	font-size: 13px;
-	width: :250px;
+	width: 250px;
 	margin-left: -125px;
 }
 .comment-awaiting-moderation + br{
