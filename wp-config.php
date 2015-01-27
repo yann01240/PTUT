@@ -67,6 +67,7 @@ define('NONCE_SALT',       'zl9(w@$I@r;[^iwEK;?*9gH-xuv8--!->jiHB}AJrbO*msbM~-FN
  * N'utilisez que des chiffres, des lettres non-accentuées, et des caractères soulignés!
  */
 $table_prefix  = 'wp_';
+define('TABLE_PREFIX', $table_prefix);
 
 /** 
  * Pour les développeurs : le mode deboguage de WordPress.
