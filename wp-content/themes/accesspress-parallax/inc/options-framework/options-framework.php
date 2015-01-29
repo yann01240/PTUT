@@ -44,29 +44,21 @@ endif;
  */
 
 if ( ! function_exists( 'of_get_option' ) ) :
+
 function of_get_option( $name, $default = false ) {
+	$config = get_option( 'optionsframework' );
 
-	$option_name = '';
-
-	// Gets option name as defined in the theme
-	if ( function_exists( 'optionsframework_option_name' ) ) {
-		$option_name = optionsframework_option_name();
+	if ( ! isset( $config['id'] ) ) {
+		return $default;
 	}
 
-	// Fallback option name
-	if ( '' == $option_name ) {
-		$option_name = get_option( 'stylesheet' );
-		$option_name = preg_replace( "/\W/", "_", strtolower( $option_name ) );
-	}
+	$options = get_option( $config['id'] );
 
-	// Get option settings from database
-	$options = get_option( $option_name );
-
-	// Return specific option
 	if ( isset( $options[$name] ) ) {
 		return $options[$name];
 	}
 
 	return $default;
 }
+
 endif;

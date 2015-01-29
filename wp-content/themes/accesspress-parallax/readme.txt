@@ -89,8 +89,11 @@ Images
 ---------------------------------------------
 
 == Changelog ==
-Version 1.15
-* Changed the Option name to theme text domain to prevent the lose of theme option data while making child theme. 
+Version 1.16
+* Theme option value not saving bug fixed.
+
+Version 1.15 
+* Changed the Option name to theme text domain to prevent the lose of theme option data while making child theme.     
 
 Version 1.14
 * Section ID changed by page ID instead of Page name (Page name created problem with other language then english.)

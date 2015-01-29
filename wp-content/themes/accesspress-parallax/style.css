@@ -4,7 +4,7 @@ Theme URI: http://accesspressthemes.com/wordpress-themes/accesspress-parallax/
 Author: AccessPress Themes
 Author URI: http://accesspressthemes.com/
 Description: AccessPress Parallax is a beautiful WordPress theme with Parallax design. Parallax design has become popular and is being adopted because 3D effects are possible with it, you can add some sphere to your product, it is the best way of storytelling, you can draw your visitors in, it is interactive, engaging, makes your visitors curious, fun, surprise, effective to trigger action, invite your visitors in great Call to Action, great conversion rates and many more. This is probably the most beautiful, feature rich and complete free WordPress parallax theme with features like: fully responsive, advance theme option panel, featured slider, advance post settings, services/team/blog/portfolio/testimonial layout, Google map integration, custom logo/fav icon, call to action, CSS animation, SEO friendly, translation ready, RTL support, custom CSS/JS and more! Demo: http://accesspressthemes.com/accesspress-parallax/ Support forum:https://accesspressthemes.com/support/ Pro version:https://accesspressthemes.com/wordpress-themes/accesspress-parallax-pro/ 
-Version: 1.15
+Version: 1.16
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: accesspress_parallax
@@ -806,7 +806,7 @@ textarea#comment{
 	top: -20px;
 	color:#FFF;
 	font-size: 13px;
-	width: 250px;
+	width: :250px;
 	margin-left: -125px;
 }
 .comment-awaiting-moderation + br{

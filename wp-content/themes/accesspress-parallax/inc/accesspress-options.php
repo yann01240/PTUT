@@ -6,7 +6,10 @@
  */
 
 function optionsframework_option_name() {
-	return 'accesspress_parallax';
+
+	// This gets the theme name from the stylesheet
+	$optionsframework_settings['id'] = 'accesspress_parallax';
+	update_option( 'optionsframework', $optionsframework_settings );
 }
 
 /**
